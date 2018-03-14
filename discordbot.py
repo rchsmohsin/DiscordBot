@@ -1,6 +1,6 @@
 import discord
 import asyncio
-
+#andaksflna;
 client = discord.Client()
 
 @client.event
