@@ -23,5 +23,5 @@ async def on_message(message):
     elif message.content.startswith('!sleep'):
         await asyncio.sleep(5)
         await client.send_message(message.channel, 'Done sleeping')
-        
-client.run('token')
+token = read("tokenfile.txt","r")
+client.run(token)
